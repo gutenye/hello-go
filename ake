@@ -1,0 +1,9 @@
+#!/bin/bash
+
+main() {
+  go run main.go
+}
+
+case "$1" in
+  "" ) main ;;
+esac
